@@ -25,5 +25,6 @@ class QRCode(ndb.Model):
 class MC(ndb.Model):
     n = ndb.IntegerProperty(required=True)
     l = ndb.IntegerProperty()
+    i = ndb.IntegerProperty()
     q = ndb.TextProperty()
     a = ndb.TextProperty()

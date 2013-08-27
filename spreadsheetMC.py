@@ -25,6 +25,9 @@ integer_properties = [
     },
     {
         'name': 'n'
+    },
+    {
+        'name': 'i'
     }
 ]
 
