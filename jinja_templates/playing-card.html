@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- https://googledrive.com/host/0B-659FdpCliwYXEtaG9JUlk2MWc/index.html -->
+        <title>Katholiek kwartetten - {{qrCode.kwartet}} - {{qrCode.kaart}}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Katholiek kwartetten - {{qrCode.kwartet}} - {{qrCode.kaart}}" />
+        <meta name="google-site-verification" content="" />
+        <link rel="stylesheet" href="/stylesheets/jquery.mobile-katholiekkwartetten.css"  media="screen"/><!-- themeroller -->
+        <link rel="stylesheet" href="//code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css"  media="screen"/>
+        <link rel="stylesheet" href="/stylesheets/katholiekkwartetten.css"/><!-- my styles -->
+        <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="/javascript/jquery.rwdImageMaps.min.js"></script>
+        <!--link rel="icon" type="image/png" href="favicon.png" /-->
+        <!--link rel="apple-touch-icon-precomposed" href="favicon114.png" /-->
+        <script src="/javascript/katholiekkwartetten.js"></script>
+        <script src="//code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <script src="/javascript/jquery.cookie.js"></script>
+    </head>
+    <body id="nav">
+
+        <div data-role="page">
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="/" data-icon="home" data-role="button" data-iconpos="notext" rel="external"></a>
+                <h1>{{qrCode.kaart}}</h1>
+            </div>
+
+            <div class="image-container">
+                <img class="fullwidthimage" src="https://googledrive.com/host/0B-659FdpCliwR21seWgtRUpDT2M/{{qrCode.beeld}}" alt="Kwartetkaart {{qrCode.kaart}}"/>
+            </div>
+            <div class="text-content">
+                <p>{{qrCode.uitleg}}</p>
+            </div>
+
+            {% if quiz == True %}
+            <div data-role="controlgroup">
+                <a href="/quiz/kwartetkaarten" data-role="button" data-rel="dialog">Een vraag uit het kwartet</a>
+                <a href="/quiz/catechismus1" data-role="button" data-rel="dialog">Een vraag uit de catechismus (1-2)</a>
+                <a href="/quiz/catechismus2" data-role="button" data-rel="dialog">Een vraag uit de catechismus (3-4)</a>
+                <a href="/quiz/catechismus3" data-role="button" data-rel="dialog">Een vraag uit de catechismus (5-7)</a>
+            </div>
+            {% endif %}
+
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <select name="spelen" id="spelen" data-role="slider" data-mini="true">
+                    <option value="lezen">Lezen</option>
+                    <option value="spelen">Spelen</option>
+                </select>
+            </div>
+
+        </div><!-- /page -->
+
+    </body>
+</html>
+
+

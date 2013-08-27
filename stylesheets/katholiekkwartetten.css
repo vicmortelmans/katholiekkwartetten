@@ -1,0 +1,80 @@
+html, body { background-color: #FFFFFF !important;}
+
+img
+{
+    border-style: none;
+}
+
+dt
+{
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 550px) {
+    .ui-page {
+        width: 550px !important;
+        margin: 0 auto !important;
+        position: relative !important;
+    }
+    .ui-header-fixed, .ui-footer-fixed {
+        width: 550px !important;
+        margin: 0 auto !important;
+    }
+    .ui-btn {
+        margin-right: 0px !important;
+    }
+    .fullwidthimage  {
+        max-width:550px;
+        display: block;
+    }
+}
+
+.ui-title {
+    margin: 0.6em 10% 0.8em 5% !important;
+}
+
+.fullwidthimage  {
+    max-width:100%;
+    display: block;
+}
+
+.fullwidth .ui-collapsible-content {
+    padding: 0px !important;
+}
+
+.ui-content {
+    padding-top: 0px !important;
+}
+
+.ui-collapsible-set {
+    margin-top: 0px !important;
+}
+
+.fb-comments-count {
+    display: inline;
+}
+
+.ui-footer, .main-button {
+    text-align: center;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.map
+{
+    display: block;
+    position: absolute;
+}
+
+@media print
+{
+    .ui-footer, .ui-navbar, .ui-collapsible-heading-status {
+        display: none;
+    }
+}

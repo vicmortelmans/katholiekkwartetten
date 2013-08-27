@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Katholiek Kwartetten - Mechelse Catechismus</title>
+    </head>
+    <body>
+        <h1>Katholiek Kwartetten - Mechelse Catechismus</h1>
+        <table>
+        	<thead>
+        		<tr>
+        			<th>l</th>
+        			<th>n</th>
+        			<th>q</th>
+        			<th>a</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+        	{% for q in mc %}
+        		<tr>
+        			{% for item in ['l','n','q','a']%}
+        				<td>{{q[item]}}</td>
+        			{% endfor %}
+        		</tr>
+        	{% endfor %}
+        	</tbody>
+        </table>
+    </body>
+</html>

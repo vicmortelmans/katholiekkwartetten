@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Katholiek Kwartetten - alle kaarten</title>
+    </head>
+    <body>
+        <h1>Katholiek Kwartetten - alle kaarten</h1>
+        <table>
+        	<thead>
+        		<tr>
+        			<th>nrc</th>
+        			<th>kwartet</th>
+        			<th>kwartetsluggy</th>
+        			<th>kaart</th>
+        			<th>kaartsluggy</th>
+                    <th>cardurl</th>
+        			<th>url</th>
+        			<th>beeld</th>
+        			<th>uitleg</th>
+        			<th>vraag</th>
+        			<th>antwoord</th>
+                    <th>embed</th>
+                    <th>fullurl</th>
+                    <th>firstcardurl</th>
+                    <th>secondcardurl</th>
+                    <th>thirdcardurl</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+        	{% for qrCode in qrCodes %}
+        		<tr>
+        			{% for item in ['nrc','kwartet','kwartetsluggy','kaart','kaartsluggy','cardurl','url','beeld','uitleg','vraag','antwoord','embed','fullurl','firstcardurl','secondcardurl','thirdcardurl']%}
+        				<td>{{qrCode[item]}}</td>
+        			{% endfor %}
+        		</tr>
+        	{% endfor %}
+        	</tbody>
+        </table>
+    </body>
+</html>
