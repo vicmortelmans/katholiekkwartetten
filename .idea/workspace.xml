@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f849845-f71b-4a0f-9ea0-2838dc773b15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card.py" afterPath="$PROJECT_DIR$/card.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/card.html" afterPath="$PROJECT_DIR$/jinja_templates/card.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/list-mc.html" afterPath="$PROJECT_DIR$/jinja_templates/list-mc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.py" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" afterPath="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/playing-card.html" afterPath="$PROJECT_DIR$/jinja_templates/playing-card.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/quiz.html" afterPath="$PROJECT_DIR$/jinja_templates/quiz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spreadsheetMC.py" afterPath="$PROJECT_DIR$/spreadsheetMC.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Katholiekkwartetten.iws" />
@@ -62,100 +58,7 @@
     <favorites_list name="Katholiekkwartetten" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="141" selection-start="4298" selection-end="4298" vertical-scroll-proportion="0.55988026">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quiz.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinja_templates/quiz.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="419" selection-end="419" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spreadsheetMC.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spreadsheetMC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinja_templates/card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="74" selection-start="809" selection-end="809" vertical-scroll-proportion="48.384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playing-card.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinja_templates/playing-card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="116" selection-start="2252" selection-end="2282" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sync.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sync.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-mc.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinja_templates/list-mc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="-12.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datastoreMC.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastoreMC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="3034" selection-end="3034" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -173,22 +76,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/javascript/katholiekkwartetten.js" />
         <option value="$PROJECT_DIR$/jinja_templates/list-cards.html" />
         <option value="$PROJECT_DIR$/spreadsheet-mc.py" />
         <option value="$PROJECT_DIR$/spreadsheet.py" />
         <option value="$PROJECT_DIR$/sync.py" />
         <option value="$PROJECT_DIR$/datastoreMC.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/jinja_templates/card.html" />
-        <option value="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
-        <option value="$PROJECT_DIR$/jinja_templates/playing-card.html" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/spreadsheetMC.py" />
         <option value="$PROJECT_DIR$/jinja_templates/quiz.html" />
         <option value="$PROJECT_DIR$/jinja_templates/list-mc.html" />
         <option value="$PROJECT_DIR$/card.py" />
+        <option value="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
+        <option value="$PROJECT_DIR$/javascript/katholiekkwartetten.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jinja_templates/card.html" />
+        <option value="$PROJECT_DIR$/jinja_templates/playing-card.html" />
       </list>
     </option>
   </component>
@@ -446,13 +349,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1308" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959871" sideWeight="0.600639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2199037" sideWeight="0.6709265" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2199037" sideWeight="0.6709265" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -530,32 +433,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spreadsheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="2928" selection-end="2928" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="65" selection-start="2024" selection-end="2024" vertical-scroll-proportion="0.04557641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jinja_templates/list-cards.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="524" selection-end="524" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/katholiekkwartetten.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="1.474006">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backends.yaml">
@@ -566,13 +446,6 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="37" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spreadsheetMC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -595,7 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,37 +480,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinja_templates/playing-card.html">
+    <entry file="file://$PROJECT_DIR$/card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="116" selection-start="2252" selection-end="2282" vertical-scroll-proportion="-0.65384614">
+        <state line="37" column="24" selection-start="1884" selection-end="1884" vertical-scroll-proportion="1.0666667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinja_templates/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="419" selection-end="419" vertical-scroll-proportion="-9.807693">
+        <state line="18" column="21" selection-start="419" selection-end="419" vertical-scroll-proportion="0.6929348">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinja_templates/card.html">
+    <entry file="file://$PROJECT_DIR$/spreadsheetMC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="809" selection-end="809" vertical-scroll-proportion="48.384617">
+        <state line="27" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.043147206">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/card.py">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
+        <state line="259" column="23" selection-start="6277" selection-end="6277" vertical-scroll-proportion="0.33248731">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="141" selection-start="4298" selection-end="4298" vertical-scroll-proportion="0.55988026">
+        <state line="8" column="14" selection-start="385" selection-end="385" vertical-scroll-proportion="0.3830986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinja_templates/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3830986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/katholiekkwartetten.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.9137056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/katholiekkwartetten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.043147206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinja_templates/playing-card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3830986">
           <folding />
         </state>
       </provider>
