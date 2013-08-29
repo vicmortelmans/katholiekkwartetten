@@ -16,8 +16,10 @@ class QRCode(ndb.Model):
     url = ndb.TextProperty()
     beeld = ndb.TextProperty()
     uitleg = ndb.TextProperty()
+    intro = ndb.TextProperty()
     vraag = ndb.TextProperty()
     antwoord = ndb.TextProperty()
+    embedtype = ndb.TextProperty()
     embed = ndb.TextProperty()
     fullurl = ndb.TextProperty()
 
