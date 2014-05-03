@@ -13,8 +13,12 @@ class CardRedirectHandler(webapp2.RequestHandler):
         nrc = self.request.get('nr')
         qrCode = QRCode.get_by_id(nrc)
         template = jinja_environment.get_template('playing-card.html')
-        if self.request.cookies.get('spelen'):
-            r = random.random();
+        if self.request.cookies.get('spelen') or self.request.get('spelen'):
+            # use the URL option ?spelen=0.5 to force playing mode with predefined r
+            if not self.request.get('spelen'):
+                r = random.random()
+            else:
+                r = float(self.request.get('spelen'))
             if r < 0.1:
                 # give the first other card in the set
                 otherQrCode = (QRCode.query(QRCode.kwartetsluggy == qrCode.kwartetsluggy).fetch(3))[0]
