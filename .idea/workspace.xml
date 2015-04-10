@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f849845-f71b-4a0f-9ea0-2838dc773b15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/card.html" afterPath="$PROJECT_DIR$/jinja_templates/card.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/jquery.mobile-katholiekkwartetten.css" afterPath="$PROJECT_DIR$/stylesheets/jquery.mobile-katholiekkwartetten.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" afterPath="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/list-cards.html" afterPath="$PROJECT_DIR$/jinja_templates/list-cards.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Katholiekkwartetten.iws" />
@@ -19,17 +21,17 @@
     <file path="/datastore.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377449669954" ignored="false" />
     <file path="/model.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377789286220" ignored="false" />
     <file path="/spreadsheet_index.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376854900655" ignored="false" />
-    <file path="/list-cards.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377550658183" ignored="false" />
+    <file path="/list-cards.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1428692448782" ignored="false" />
     <file path="$PROJECT_DIR$/../Missale/datastore_index.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376932003660" ignored="false" />
     <file path="/datastore_index.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376932003660" ignored="false" />
     <file path="/cardRedirect.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376938494797" ignored="false" />
     <file path="/card.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1399131172495" ignored="false" />
-    <file path="/card.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1378881511402" ignored="false" />
+    <file path="/card.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1428694791306" ignored="false" />
     <file path="/app.yaml" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1378068127321" ignored="false" />
     <file path="/jinja_templates.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376942328262" ignored="false" />
     <file path="/a.dummy" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376942498731" ignored="false" />
-    <file path="/index.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1427406654021" ignored="false" />
-    <file path="/katholiekkwartetten.css" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377630683793" ignored="false" />
+    <file path="/index.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1427488086244" ignored="false" />
+    <file path="/katholiekkwartetten.css" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1427488715527" ignored="false" />
     <file path="/katholiekkwartetten.js" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1378066872069" ignored="false" />
     <file path="/fragment.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377455543508" ignored="false" />
     <file path="/playing-card.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377631433446" ignored="false" />
@@ -38,7 +40,7 @@
     <file path="/list-mc.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377634695135" ignored="false" />
     <file path="/datastoreMC.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377580552517" ignored="false" />
     <file path="/spreadsheetMC.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377632136406" ignored="false" />
-    <file path="/Dummy.txt" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1427403247237" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1428605768826" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +82,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sync.py" />
         <option value="$PROJECT_DIR$/datastoreMC.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/spreadsheetMC.py" />
         <option value="$PROJECT_DIR$/jinja_templates/list-mc.html" />
         <option value="$PROJECT_DIR$/jinja_templates/quiz.html" />
-        <option value="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/javascript/katholiekkwartetten.js" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/robots.txt" />
-        <option value="$PROJECT_DIR$/jinja_templates/playing-card.html" />
-        <option value="$PROJECT_DIR$/jinja_templates/card.html" />
         <option value="$PROJECT_DIR$/card.py" />
         <option value="$PROJECT_DIR$/stylesheets/jquery.mobile-katholiekkwartetten.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jinja_templates/playing-card.html" />
+        <option value="$PROJECT_DIR$/jinja_templates/list-cards.html" />
+        <option value="$PROJECT_DIR$/stylesheets/katholiekkwartetten.css" />
+        <option value="$PROJECT_DIR$/jinja_templates/card.html" />
       </list>
     </option>
   </component>
@@ -163,6 +165,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jinja_templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -171,11 +187,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -337,7 +353,11 @@
       <created>1399138084706</created>
       <updated>1399138084706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changing layout colors and removed reference to catholica">
+      <created>1427408387572</created>
+      <updated>1427408387572</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -348,11 +368,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959871" sideWeight="0.600639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24453782" sideWeight="0.6709265" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39776358" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25714287" sideWeight="0.67147434" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974359" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -406,7 +426,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added url parameters to force quiz mode for demo/testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing layout colors and removed reference to catholica" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -423,6 +443,7 @@
     <MESSAGE value="trying to fix flickering - no luck - added google site verification for webmaster tools" />
     <MESSAGE value="added google analytics - added favicon - added embedded video and audio" />
     <MESSAGE value="added url parameters to force quiz mode for demo/testing" />
+    <MESSAGE value="changing layout colors and removed reference to catholica" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,16 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jinja_templates/list-mc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="-12.115385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spreadsheetMC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.043147206" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="259" column="23" selection-start="6277" selection-end="6277" vertical-scroll-proportion="0.33248731" />
@@ -450,19 +461,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/katholiekkwartetten.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="1" selection-start="1470" selection-end="1470" vertical-scroll-proportion="1.5845273" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jinja_templates/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="12" selection-start="570" selection-end="570" vertical-scroll-proportion="0.501548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="706" selection-end="706" vertical-scroll-proportion="0.9340974" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
@@ -470,52 +471,84 @@
         <state line="1" column="11" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinja_templates/playing-card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="70" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.7661972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jinja_templates/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="70" selection-start="1128" selection-end="1190" vertical-scroll-proportion="0.7661972" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/katholiekkwartetten.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="3" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.35279188" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/card.py">
+    <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="771" selection-end="771" vertical-scroll-proportion="0.19685039" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+        <state line="12" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="0.5811966">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/jquery.mobile-katholiekkwartetten.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="784" column="36" selection-start="34450" selection-end="34450" vertical-scroll-proportion="0.34421366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinja_templates/playing-card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.1440678">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="0" selection-start="12288" selection-end="12288" vertical-scroll-proportion="0.92628205">
+        <state line="36" column="43" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.47147146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinja_templates/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="32" selection-start="7238" selection-end="7238" vertical-scroll-proportion="0.48022598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/katholiekkwartetten.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.47582698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="706" selection-end="706" vertical-scroll-proportion="0.562341">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="748" selection-end="748" vertical-scroll-proportion="0.73536897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="771" selection-end="771" vertical-scroll-proportion="-1.3447368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spreadsheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7735369">
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
+    <entry file="file://$PROJECT_DIR$/jinja_templates/list-cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="0.5811966">
+        <state line="32" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.86440676">
           <folding />
         </state>
       </provider>

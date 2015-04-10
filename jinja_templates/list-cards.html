@@ -19,6 +19,7 @@
         			<th>uitleg</th>
         			<th>vraag</th>
         			<th>antwoord</th>
+                    <th>embedtype</th>
                     <th>embed</th>
                     <th>fullurl</th>
                     <th>firstcardurl</th>
@@ -29,7 +30,7 @@
         	<tbody>
         	{% for qrCode in qrCodes %}
         		<tr>
-        			{% for item in ['nrc','kwartet','kwartetsluggy','kaart','kaartsluggy','cardurl','url','beeld','uitleg','vraag','antwoord','embed','fullurl','firstcardurl','secondcardurl','thirdcardurl']%}
+        			{% for item in ['nrc','kwartet','kwartetsluggy','kaart','kaartsluggy','cardurl','url','beeld','uitleg','vraag','antwoord','embedtype','embed','fullurl','firstcardurl','secondcardurl','thirdcardurl']%}
         				<td>{{qrCode[item]}}</td>
         			{% endfor %}
         		</tr>
