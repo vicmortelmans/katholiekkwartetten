@@ -8,7 +8,9 @@ routes = [
     webapp2.Route(r'/list-spreadsheet', handler='spreadsheet.ListSpreadsheetHandler'),
     webapp2.Route(r'/list-datastore', handler='datastore.ListDatastoreHandler'),
     webapp2.Route(r'/sync', handler='sync.SyncHandler'),
-    webapp2.Route(r'/sync-mc', handler='sync.SyncMCHandler')
+    webapp2.Route(r'/sync-mc', handler='sync.SyncMCHandler'),
+    # this one is added here to avoid spending a separate app on it
+    webapp2.Route(r'/innerlijk-leven', handler='innerlijk_leven.InnerlijkLevenHandler')
 ]
 
 app = webapp2.WSGIApplication(routes, debug=True)
