@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f849845-f71b-4a0f-9ea0-2838dc773b15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/innerlijk_leven.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/builder/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/builder/_html5lib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/builder/_htmlparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/builder/_lxml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/dammit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/diagnose.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/element.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jinja_templates/heiligen-net.rss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heiligen_net.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_builder_registry.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_docs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_html5lib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_htmlparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_lxml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_soup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/tests/test_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bs4/testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss" afterPath="$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/innerlijk_leven.py" afterPath="$PROJECT_DIR$/innerlijk_leven.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Katholiekkwartetten.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../Missale/app.yaml" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376683431534" ignored="false" />
-    <file path="/main.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437153819474" ignored="false" />
+    <file path="/main.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437501735273" ignored="false" />
     <file path="$PROJECT_DIR$/../Missale/spreadsheet_index.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376854901326" ignored="false" />
     <file path="$PROJECT_DIR$/../Missale/google_credentials.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376684401820" ignored="false" />
     <file path="/google_credentials.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1376684387026" ignored="false" />
@@ -31,16 +50,23 @@
     <file path="/index.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1429355416666" ignored="false" />
     <file path="/katholiekkwartetten.css" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1427488715527" ignored="false" />
     <file path="/katholiekkwartetten.js" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1378066872069" ignored="false" />
-    <file path="/fragment.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377455543508" ignored="false" />
+    <file path="/fragment.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437511122991" ignored="false" />
     <file path="/playing-card.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377631433446" ignored="false" />
     <file path="/quiz.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377632479404" ignored="false" />
     <file path="/spreadsheet-mc.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377578538436" ignored="false" />
     <file path="/list-mc.html" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377634695135" ignored="false" />
     <file path="/datastoreMC.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377580552517" ignored="false" />
     <file path="/spreadsheetMC.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1377632136406" ignored="false" />
-    <file path="/Dummy.txt" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437153544919" ignored="false" />
-    <file path="/innerlijk_leven.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437163004485" ignored="false" />
-    <file path="/innerlijk-leven.rss" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437158958149" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437512381255" ignored="false" />
+    <file path="/innerlijk_leven.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437508046512" ignored="false" />
+    <file path="/innerlijk-leven.rss" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437508055344" ignored="false" />
+    <file path="$PROJECT_DIR$/../catecheserooster/collection/koningsoord.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437339897525" ignored="false" />
+    <file path="/koningsoord.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437339897525" ignored="false" />
+    <file path="$PROJECT_DIR$/../catecheserooster/collection/cards.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437339943803" ignored="false" />
+    <file path="/cards.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437339942665" ignored="false" />
+    <file path="/heiligen_net.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437509492618" ignored="false" />
+    <file path="/heiligen-net.rss" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437508156870" ignored="false" />
+    <file path="$PROJECT_DIR$/../catecheserooster/collection/heiligen.py" changelist="0f849845-f71b-4a0f-9ea0-2838dc773b15" time="1437511988975" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +90,55 @@
     <favorites_list name="Katholiekkwartetten" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="innerlijk_leven.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/innerlijk_leven.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="73" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heiligen-net.rss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jinja_templates/heiligen-net.rss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="46" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heiligen_net.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heiligen_net.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="62" selection-start="986" selection-end="986" vertical-scroll-proportion="0.35207102">
+              <folding>
+                <element signature="e#65#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="innerlijk-leven.rss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="22" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -82,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jinja_templates/list-mc.html" />
-        <option value="$PROJECT_DIR$/jinja_templates/quiz.html" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/javascript/katholiekkwartetten.js" />
         <option value="$PROJECT_DIR$/app.yaml" />
@@ -96,8 +168,10 @@
         <option value="$PROJECT_DIR$/jinja_templates/card.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss" />
         <option value="$PROJECT_DIR$/innerlijk_leven.py" />
+        <option value="$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss" />
+        <option value="$PROJECT_DIR$/jinja_templates/heiligen-net.rss" />
+        <option value="$PROJECT_DIR$/heiligen_net.py" />
       </list>
     </option>
   </component>
@@ -179,6 +253,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Katholiekkwartetten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bs4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -189,7 +295,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../catecheserooster" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -366,7 +472,11 @@
       <created>1429355859859</created>
       <updated>1429355859859</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added grossouws innerlijk leven RSS for feeding my blog now Yahoo Pipe is going down">
+      <created>1437163690539</created>
+      <updated>1437163690539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,11 +487,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959871" sideWeight="0.600639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27142859" sideWeight="0.6741214" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39616615" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28151262" sideWeight="0.6041667" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39583334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,7 +545,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grossouws innerlijk leven RSS for feeding my blog now Yahoo Pipe is going down" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -455,23 +565,14 @@
     <MESSAGE value="changing layout colors and removed reference to catholica" />
     <MESSAGE value="Ready for release, is it?" />
     <MESSAGE value="finishing touches" />
+    <MESSAGE value="added grossouws innerlijk leven RSS for feeding my blog now Yahoo Pipe is going down" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jinja_templates/quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="570" selection-end="570" vertical-scroll-proportion="0.501548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/katholiekkwartetten.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.35279188" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="0.5811966" />
@@ -524,33 +625,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="62" selection-start="3339" selection-end="3339" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state line="62" column="62" selection-start="3339" selection-end="3339" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="73" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinja_templates/heiligen-net.rss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinja_templates/innerlijk-leven.rss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+        <state line="14" column="22" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/innerlijk_leven.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="97" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.7780679">
-          <folding>
-            <element signature="e#65#79#0" expanded="true" />
-          </folding>
+        <state line="4" column="7" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/heiligen_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.4722222">
-          <folding />
+        <state line="27" column="62" selection-start="986" selection-end="986" vertical-scroll-proportion="0.35207102">
+          <folding>
+            <element signature="e#65#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

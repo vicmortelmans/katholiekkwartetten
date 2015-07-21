@@ -10,7 +10,8 @@ routes = [
     webapp2.Route(r'/sync', handler='sync.SyncHandler'),
     webapp2.Route(r'/sync-mc', handler='sync.SyncMCHandler'),
     # this one is added here to avoid spending a separate app on it
-    webapp2.Route(r'/innerlijk-leven', handler='innerlijk_leven.InnerlijkLevenHandler')
+    webapp2.Route(r'/innerlijk-leven.rss', handler='innerlijk_leven.InnerlijkLevenHandler'),
+    webapp2.Route(r'/heiligen-net.rss', handler='heiligen_net.HeiligenNetHandler')
 ]
 
 app = webapp2.WSGIApplication(routes, debug=True)

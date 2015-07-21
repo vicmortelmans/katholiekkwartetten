@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+   <channel>
+      <title>heiligen.net</title>
+      <description>Heiligenkalender</description>
+      <atom:link href="http://www.katholiekkwartetten.net/heiligen-net.rss" rel="self" type="application/rss+xml" />
+      <link>http://alledaags.gelovenleren.net</link>
+      <pubDate>{{long_date}}</pubDate>
+      <generator>http://www.katholiekkwartetten.net</generator>
+      {% for item in items %}
+      <item>
+         <title>{{item['title']}}</title>
+         <link>{{item['url']}}</link>
+         <description>{{item['description']}}</description>
+         <author>A. van den Akker s.j.</author>
+         <guid isPermaLink="false">{{item['url']}}</guid>
+         <pubDate>{{long_date_midnight}}</pubDate>
+      </item>
+      {% endfor %}
+   </channel>
+</rss>
