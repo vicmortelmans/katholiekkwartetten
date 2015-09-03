@@ -1,6 +1,7 @@
 import webapp2
 from jinja_templates import jinja_environment
 from gdata.spreadsheets.client import SpreadsheetsClient
+from gdata.gauth import OAuth2TokenFromCredentials
 import google_credentials
 import logging
 
@@ -54,16 +55,13 @@ class Spreadsheet_index():
        Each dict is a row of the spreadsheet.
        Repeated properties are represented as a list.
        The list is then available as the table attribute."""
-    def __init__(self, google_spreadsheet_key, google_worksheet_id):
+    def __init__(self, google_spreadsheet_key, google_worksheet_id, oauth_decorator=None):
         """google_spreadsheet_key is the key of the spreadsheet (can be read from the url)."""
         self._google_spreadsheet_key = google_spreadsheet_key
         self._google_worksheet_id = google_worksheet_id
         self._client = SpreadsheetsClient()
-        self._client.client_login(
-            google_credentials.USERNAME,
-            google_credentials.PASSWORD,
-            'katholiekkwartetten'
-        )
+        self._token = OAuth2TokenFromCredentials(oauth_decorator.credentials)
+        self._token.authorize(self._client)
         self.table = []
         self.sync_table()
 
@@ -80,11 +78,12 @@ class Spreadsheet_index():
 class QRCodes(Spreadsheet_index):
     """Read the published google spreadsheet containing QRCode card metadata
     into a list of dicts"""
-    def __init__(self):
+    def __init__(self, oauth_decorator=None):
         Spreadsheet_index.__init__(
             self,
             google_spreadsheet_key,
-            google_spreadsheet_worksheet_id
+            google_spreadsheet_worksheet_id,
+            oauth_decorator=oauth_decorator
         )
 
     def update_fields(self, updates):

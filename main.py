@@ -1,4 +1,10 @@
 import webapp2
+from oauth2client.appengine import OAuth2Decorator
+import google_credentials
+
+decorator = OAuth2Decorator(client_id=google_credentials.CLIENT_ID,
+                            client_secret=google_credentials.CLIENT_SECRET,
+                            scope='https://spreadsheets.google.com/feeds https://www.googleapis.com/auth/drive')
 
 routes = [
     webapp2.Route(r'/_ah/start', handler='main.StartBackendHandler'),
@@ -11,7 +17,8 @@ routes = [
     webapp2.Route(r'/sync-mc', handler='sync.SyncMCHandler'),
     # this one is added here to avoid spending a separate app on it
     webapp2.Route(r'/innerlijk-leven.rss', handler='innerlijk_leven.InnerlijkLevenHandler'),
-    webapp2.Route(r'/heiligen-net.rss', handler='heiligen_net.HeiligenNetHandler')
+    webapp2.Route(r'/heiligen-net.rss', handler='heiligen_net.HeiligenNetHandler'),
+    webapp2.Route(decorator.callback_path, handler=decorator.callback_handler())
 ]
 
 app = webapp2.WSGIApplication(routes, debug=True)

@@ -5,12 +5,15 @@ import datastore
 import spreadsheetMC
 import datastoreMC
 import re
+from main import decorator
 
 
 class SyncHandler(webapp2.RequestHandler):
+
+    @decorator.oauth_required
     def get(self):
         # get the contents of the spreadsheet
-        spreadsheet_mgr = spreadsheet.QRCodes()
+        spreadsheet_mgr = spreadsheet.QRCodes(oauth_decorator=decorator)
         self.spreadsheet = spreadsheet_mgr.table
 
         # get the contents of the datastore
@@ -43,7 +46,7 @@ class SyncHandler(webapp2.RequestHandler):
 class SyncMCHandler(webapp2.RequestHandler):
     def get(self):
         # get the contents of the spreadsheet
-        spreadsheet_mgr = spreadsheetMC.MC()
+        spreadsheet_mgr = spreadsheetMC.MC(oauth_decorator=decorator)
         self.spreadsheet = spreadsheet_mgr.table
 
         # get the contents of the datastore

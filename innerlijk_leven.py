@@ -11,6 +11,7 @@ import cgi
 
 class InnerlijkLevenHandler(webapp2.RequestHandler):
     def get(self):
+        # 20150902 note that googledrive.com/host is deprecated on 20160831
         url = "https://googledrive.com/host/0B-659FdpCliwRkRYclJvRUFZNFU/innerlijk-leven-html/%s.html" % time.strftime("%Y-%m-%d")
         html = urllib2.urlopen(url).read()
         root = ET.fromstring(html)

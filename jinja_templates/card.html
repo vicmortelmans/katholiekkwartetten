@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Article">
     <head>
-        <!-- https://googledrive.com/host/0B-659FdpCliwYXEtaG9JUlk2MWc/index.html -->
         <title>Katholiek Kwartetten - {{qrCode.kwartet}} - {{qrCode.kaart}}</title>
 
         <meta name="description" content="Katholiek Kwartetten - {{qrCode.uitleg}}" />
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="{{qrCode.kwartet}} - {{qrCode.kaart}}">
         <meta itemprop="description" content="{{qrCode.uitleg}}">
-        <meta itemprop="image" content="http://mirrorrrgl.katholiekkwartetten.net/googledrive.com/host/0B-659FdpCliwR21seWgtRUpDT2M/{{qrCode.beeld}}">
+        <meta itemprop="image" content="http://storage.googleapis.com/katholiek-kwartetten/kaarten/{{qrCode.beeld}}">
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@vicmortelmans">
@@ -16,12 +15,12 @@
         <meta name="twitter:description" content="{{qrCode.uitleg}}">
         <meta name="twitter:creator" content="@vicmortelmans">
         <!-- Twitter summary card with large image must be at least 280x150px -->
-        <meta name="twitter:image:src" content="http://mirrorrrgl.katholiekkwartetten.net/googledrive.com/host/0B-659FdpCliwR21seWgtRUpDT2M/{{qrCode.beeld}}">
+        <meta name="twitter:image:src" content="http://storage.googleapis.com/katholiek-kwartetten/kaarten/{{qrCode.beeld}}">
         <!-- Open Graph data -->
         <meta property="og:title" content="{{qrCode.kaart}}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://www.katholiekkwartetten.net{{qrCode.cardurl}}" />
-        <meta property="og:image" content="http://mirrorrrgl.katholiekkwartetten.net/googledrive.com/host/0B-659FdpCliwR21seWgtRUpDT2M/{{qrCode.beeld}}" />
+        <meta property="og:image" content="http://storage.googleapis.com/katholiek-kwartetten/kaarten/{{qrCode.beeld}}" />
         <meta property="og:description" content="{{qrCode.uitleg}}" />
         <meta property="og:site_name" content="Katholiek Kwartetten" />
         <meta property="article:published_time" content="2015-04-10T05:59:00+01:00" />
@@ -64,7 +63,7 @@
             </div>
 
             <div class="image-container">
-                <img class="fullwidthimage" src="http://mirrorrrgl.katholiekkwartetten.net/googledrive.com/host/0B-659FdpCliwR21seWgtRUpDT2M/{{qrCode.beeld}}" alt="Kwartetkaart {{qrCode.kaart}}" usemap="#cards"/>
+                <img class="fullwidthimage" src="http://storage.googleapis.com/katholiek-kwartetten/kaarten/{{qrCode.beeld}}" alt="Kwartetkaart {{qrCode.kaart}}" usemap="#cards"/>
                 <map name="cards">
                     <area shape="rect" coords="0,134,144,260" href="{{qrCode.firstcardurl}}" alt="Andere kaarten in het kwartet"/>
                     <area shape="rect" coords="0,260,144,390" href="{{qrCode.secondcardurl}}" alt="Andere kaarten in het kwartet"/>
