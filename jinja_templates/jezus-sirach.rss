@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+   <channel>
+      <title>Jezus Sirach</title>
+      <description>Ecclesiasticus</description>
+      <atom:link href="http://www.katholiekkwartetten.net/jezus-sirach.rss" rel="self" type="application/rss+xml" />
+      <link>http://twitter.com/JezusSirach</link>
+      <pubDate>{{long_date}}</pubDate>
+      <generator>http://www.katholiekkwartetten.net</generator>
+      {% for item in items %}
+      <item>
+         <title>{{item['title']}}</title>
+         <description>{{item['description']}}</description>
+         <author>Jezus Sirach</author>
+         <guid isPermaLink="false">{{item['guid']}}</guid>
+         <pubDate>{{long_date_midnight}}</pubDate>
+      </item>
+      {% endfor %}
+   </channel>
+</rss>

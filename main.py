@@ -18,6 +18,7 @@ routes = [
     # this one is added here to avoid spending a separate app on it
     webapp2.Route(r'/innerlijk-leven.rss', handler='innerlijk_leven.InnerlijkLevenHandler'),
     webapp2.Route(r'/heiligen-net.rss', handler='heiligen_net.HeiligenNetHandler'),
+    webapp2.Route(r'/jezus-sirach.rss', handler='jezus_sirach.JezusSirachHandler'),
     webapp2.Route(decorator.callback_path, handler=decorator.callback_handler())
 ]
 
