@@ -1,5 +1,4 @@
 # this one is added here to avoid spending a separate app on it
-
 import webapp2
 from jinja_templates import jinja_environment
 import urllib2
@@ -12,37 +11,51 @@ from google.appengine.runtime import apiproxy_errors
 import json
 import urllib
 import bs4  # library included especially for this...
+import model
+import zlib
+
 
 class HeiligenNetHandler(webapp2.RequestHandler):
     def get(self):
-        url = "http://heiligen.net/heiligen_dag.php?MD=%s" % time.strftime("%m%d")
-        xpath = "(//div[@id='inhoud']//table)[1]//td[2]/a"
-        harvest = getHtml(url, xpath)
-        items = []
-        for a in harvest['a']:
-            item_url = "http://heiligen.net" + a['href']
-            html = urllib2.urlopen(item_url).read()
-            # html isn't pretty, so using beautifulsoup for parsing i.o. ElementTree
-            soup = bs4.BeautifulSoup(html)
-            title = soup.find('title').text
-            content = soup.find('div', id='inhoud').prettify()
-            items.append({
-                'title': title,
-                'description': cgi.escape(content),
-                'url': item_url
-            })
-        date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d")
-        midnight = datetime.datetime.combine(datetime.datetime.now(), datetime.time.min)
-        long_date_midnight = datetime.datetime.strftime(midnight, "%a, %d %b %Y %H:%M:%S +0000")
-        long_date = datetime.datetime.strftime(datetime.datetime.now(), "%a, %d %b %Y %H:%M:%S +0000")
-        template = jinja_environment.get_template('heiligen-net.rss')
-        output = template.render(
-            items=items,
-            date=date,
-            url=url,
-            long_date=long_date,
-            long_date_midnight=long_date_midnight
-        )
+        key = 'heiligen'
+        # query the cache
+        cache = model.Heiligen_cache.get_or_insert(key)
+        if cache.content and cache.date == datetime.date.today():
+            output = zlib.decompress(cache.content).decode('unicode_escape')
+        else:
+            url = "http://heiligen.net/heiligen_dag.php?MD=%s" % time.strftime("%m%d")
+            xpath = "(//div[@id='inhoud']//table)[1]//td[2]/a"
+            harvest = getHtml(url, xpath)
+            items = []
+            for a in harvest['a']:
+                item_url = "http://heiligen.net" + a['href']
+                html = urllib2.urlopen(item_url).read()
+                # html isn't pretty, so using beautifulsoup for parsing i.o. ElementTree
+                soup = bs4.BeautifulSoup(html)
+                title = soup.find('title').text
+                content = soup.find('div', id='inhoud').prettify()
+                items.append({
+                    'title': title,
+                    'description': cgi.escape(content),
+                    'url': item_url
+                })
+            date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d")
+            midnight = datetime.datetime.combine(datetime.datetime.now(), datetime.time.min)
+            long_date_midnight = datetime.datetime.strftime(midnight, "%a, %d %b %Y %H:%M:%S +0000")
+            long_date = datetime.datetime.strftime(datetime.datetime.now(), "%a, %d %b %Y %H:%M:%S +0000")
+            template = jinja_environment.get_template('heiligen-net.rss')
+            output = template.render(
+                items=items,
+                date=date,
+                url=url,
+                long_date=long_date,
+                long_date_midnight=long_date_midnight
+            )
+            # update cache
+            cache.content = zlib.compress(output.encode('unicode_escape'))
+            cache.date = datetime.date.today()
+            cache.put()
+        # return the web-page content
         self.response.headers['Cache-Control'] = 'public,max-age=%s' % 900
         self.response.headers['Content-Type'] = 'text/xml; charset=utf-8'
         self.response.out.write(output)

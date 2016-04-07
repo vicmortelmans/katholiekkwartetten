@@ -16,7 +16,6 @@
          <description>{{item['description']}}</description>
          <author>Jezus Sirach</author>
          <guid isPermaLink="false">{{item['guid']}}</guid>
-         <pubDate>{{long_date_midnight}}</pubDate>
       </item>
       {% endfor %}
    </channel>

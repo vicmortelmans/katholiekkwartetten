@@ -3,18 +3,18 @@
   <component name="FacetManager">
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="C:\Users\vic\Dropbox\Development\PycharmProjects\Katholiekkwartetten" />
-        <option name="sdkFolder" value="C:\Program Files (x86)\Google\google_appengine" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="sdkFolder" value="$USER_HOME$/Programs/google_appengine" />
         <option name="templatesFolder" value="" />
         <option name="email" value="vicmortelmans@gmail.com" />
         <option name="gp" value="dfeedfcbdfd9dfd9dfdedfd8dfcbdfcbdfdedf99df9a" />
-        <option name="oauth2" value="false" />
+        <option name="oauth2" value="true" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 2.7.6 (/usr/bin/python2.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Google App Engine SDK" level="project" />
   </component>

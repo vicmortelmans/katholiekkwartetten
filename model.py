@@ -30,3 +30,9 @@ class MC(ndb.Model):
     i = ndb.IntegerProperty()
     q = ndb.TextProperty()
     a = ndb.TextProperty()
+
+
+class Heiligen_cache(ndb.Model):  # the key is 'heiligen'
+    date = ndb.DateProperty()
+    content = ndb.BlobProperty()
+
