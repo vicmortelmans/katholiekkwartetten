@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+   <channel>
+      <title>De Navolging van Christus</title>
+      <description>Dagelijkse bezinning</description>
+      <atom:link href="http://www.katholiekkwartetten.net/navolging-van-christus.rss" rel="self" type="application/rss+xml" />
+      <link>http://www.gelovenleren.net</link>
+      <pubDate>{{data['long_date']}}</pubDate>
+      <generator>http://www.katholiekkwartetten.net</generator>
+      {% if 'url' in data %}
+      <item>
+         <title>{{data['title']}}</title>
+         <link>{{data['url']}}</link>
+         <description>{{data['description']}}</description>
+         <author>Thomas a Kempis</author>
+         <guid isPermaLink="false">{{data['date']}}</guid>
+         <pubDate>{{data['long_date_midnight']}}</pubDate>
+      </item>
+      {% endif %}
+   </channel>
+</rss>
