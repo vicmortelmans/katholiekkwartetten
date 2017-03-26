@@ -29,16 +29,19 @@ class HeiligenNetHandler(webapp2.RequestHandler):
             items = []
             for a in harvest['a']:
                 item_url = "http://heiligen.net" + a['href']
-                html = urllib2.urlopen(item_url).read()
-                # html isn't pretty, so using beautifulsoup for parsing i.o. ElementTree
-                soup = bs4.BeautifulSoup(html)
-                title = soup.find('title').text
-                content = soup.find('div', id='inhoud').prettify()
-                items.append({
-                    'title': title,
-                    'description': cgi.escape(content),
-                    'url': item_url
-                })
+                try:
+                    html = urllib2.urlopen(item_url).read()
+                    # html isn't pretty, so using beautifulsoup for parsing i.o. ElementTree
+                    soup = bs4.BeautifulSoup(html)
+                    title = soup.find('title').text
+                    content = soup.find('div', id='inhoud').prettify()
+                    items.append({
+                        'title': title,
+                        'description': cgi.escape(content),
+                        'url': item_url
+                    })
+                except AttributeError:
+                    logging.warning("No complete data found on %s" % item_url)
             date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d")
             midnight = datetime.datetime.combine(datetime.datetime.now(), datetime.time.min)
             long_date_midnight = datetime.datetime.strftime(midnight, "%a, %d %b %Y %H:%M:%S +0000")

@@ -17,7 +17,7 @@ import json
 class JezusSirachHandler(webapp2.RequestHandler):
     def get(self):
         # 20150930 Yahoo pipes is deprecated
-        yql = 'use "https://raw.githubusercontent.com/vicmortelmans/yql-tables/master/data/twittertextfeed.xml" as twittertextfeed; select * from twittertextfeed where url = "http://users.telenet.be/vicmortelmans/ecclesiasticus.txt" and frequency = "1" and startdate = "2011/06/08" and length = "140";'
+        yql = 'use "https://raw.githubusercontent.com/vicmortelmans/yql-tables/master/data/twittertextfeed.xml" as twittertextfeed; select * from twittertextfeed where url = "https://storage.googleapis.com/jezus-sirach/ecclesiasticus.txt" and frequency = "1" and startdate = "2011/06/08" and length = "140";'
         query = "http://query.yahooapis.com/v1/public/yql?q=%s&format=json" % urllib.quote_plus(yql)
         logging.info("Going to query %s [%s]." % (yql, query))
         sleep = 1
