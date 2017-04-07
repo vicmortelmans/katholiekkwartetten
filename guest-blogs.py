@@ -5,7 +5,7 @@ from jinja_templates import jinja_environment
 import urllib2
 import time
 import datetime
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
 import cgi
 import logging
 
@@ -27,7 +27,7 @@ class NavolgingVanChristusHandler(webapp2.RequestHandler):
             data['url'] = url
             data['title'] = root.find('body').find('h1').text
             div = root.find('body').find('div')
-            data['description'] = cgi.escape(ET.tostring(div, encoding="ascii"))
+            data['description'] = cgi.escape(ET.tostring(div, encoding="ascii", xml_declaration=False))
         template = jinja_environment.get_template('navolging-van-christus.rss')
         output = template.render(
             data=data
