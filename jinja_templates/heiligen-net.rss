@@ -6,10 +6,10 @@
    <channel>
       <title>heiligen.net</title>
       <description>Heiligenkalender</description>
-      <atom:link href="http://www.katholiekkwartetten.net/heiligen-net.rss" rel="self" type="application/rss+xml" />
-      <link>http://alledaags.gelovenleren.net</link>
+      <atom:link href="https://www.katholiekkwartetten.net/heiligen-net.rss" rel="self" type="application/rss+xml" />
+      <link>https://alledaags.gelovenleren.net</link>
       <pubDate>{{long_date}}</pubDate>
-      <generator>http://www.katholiekkwartetten.net</generator>
+      <generator>https://www.katholiekkwartetten.net</generator>
       {% for item in items %}
       <item>
          <title>{{item['title']}}</title>

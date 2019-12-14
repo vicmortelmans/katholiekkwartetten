@@ -6,10 +6,10 @@
    <channel>
       <title>De Navolging van Christus</title>
       <description>Dagelijkse bezinning</description>
-      <atom:link href="http://www.katholiekkwartetten.net/navolging-van-christus.rss" rel="self" type="application/rss+xml" />
-      <link>http://www.gelovenleren.net</link>
+      <atom:link href="https://www.katholiekkwartetten.net/navolging-van-christus.rss" rel="self" type="application/rss+xml" />
+      <link>https://www.gelovenleren.net</link>
       <pubDate>{{data['long_date']}}</pubDate>
-      <generator>http://www.katholiekkwartetten.net</generator>
+      <generator>https://www.katholiekkwartetten.net</generator>
       {% if 'url' in data %}
       <item>
          <title>{{data['title']}}</title>

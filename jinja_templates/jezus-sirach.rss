@@ -6,10 +6,10 @@
    <channel>
       <title>Jezus Sirach</title>
       <description>Ecclesiasticus</description>
-      <atom:link href="http://www.katholiekkwartetten.net/jezus-sirach.rss" rel="self" type="application/rss+xml" />
-      <link>http://twitter.com/JezusSirach</link>
+      <atom:link href="https://www.katholiekkwartetten.net/jezus-sirach.rss" rel="self" type="application/rss+xml" />
+      <link>https://twitter.com/JezusSirach</link>
       <pubDate>{{long_date}}</pubDate>
-      <generator>http://www.katholiekkwartetten.net</generator>
+      <generator>https://www.katholiekkwartetten.net</generator>
       {% for item in items %}
       <item>
          <title>{{item['title']}}</title>
